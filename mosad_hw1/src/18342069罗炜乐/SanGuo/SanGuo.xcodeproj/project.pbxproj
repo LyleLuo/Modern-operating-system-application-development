@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D6061F2529DB72006452C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6061E2529DB72006452C1 /* AppDelegate.m */; };
+		02D606222529DB72006452C1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D606212529DB72006452C1 /* SceneDelegate.m */; };
+		02D606252529DB72006452C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D606242529DB72006452C1 /* ViewController.m */; };
+		02D6062A2529DB76006452C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D606292529DB76006452C1 /* Assets.xcassets */; };
+		02D606302529DB76006452C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6062F2529DB76006452C1 /* main.m */; };
+		02D6063A2529DB77006452C1 /* SanGuoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D606392529DB77006452C1 /* SanGuoTests.m */; };
+		02D606452529DB77006452C1 /* SanGuoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D606442529DB77006452C1 /* SanGuoUITests.m */; };
+		02D60654252B4D2D006452C1 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D60653252B4D2D006452C1 /* Hero.m */; };
+		02D60657252C3B03006452C1 /* pk.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D60656252C3B03006452C1 /* pk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D606362529DB77006452C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D606122529DB72006452C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D606192529DB72006452C1;
+			remoteInfo = SanGuo;
+		};
+		02D606412529DB77006452C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02D606122529DB72006452C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02D606192529DB72006452C1;
+			remoteInfo = SanGuo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D6061A2529DB72006452C1 /* SanGuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanGuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D6061D2529DB72006452C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02D6061E2529DB72006452C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02D606202529DB72006452C1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		02D606212529DB72006452C1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		02D606232529DB72006452C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02D606242529DB72006452C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02D606292529DB76006452C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02D6062E2529DB76006452C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D6062F2529DB76006452C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02D606352529DB77006452C1 /* SanGuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanGuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D606392529DB77006452C1 /* SanGuoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanGuoTests.m; sourceTree = "<group>"; };
+		02D6063B2529DB77006452C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D606402529DB77006452C1 /* SanGuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanGuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D606442529DB77006452C1 /* SanGuoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanGuoUITests.m; sourceTree = "<group>"; };
+		02D606462529DB77006452C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D60652252A2052006452C1 /* Hero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		02D60653252B4D2D006452C1 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		02D60655252C3AC7006452C1 /* pk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pk.h; sourceTree = "<group>"; };
+		02D60656252C3B03006452C1 /* pk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D606172529DB72006452C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D606322529DB77006452C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D6063D2529DB77006452C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D606112529DB72006452C1 = {
+			isa = PBXGroup;
+			children = (
+				02D6061C2529DB72006452C1 /* SanGuo */,
+				02D606382529DB77006452C1 /* SanGuoTests */,
+				02D606432529DB77006452C1 /* SanGuoUITests */,
+				02D6061B2529DB72006452C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D6061B2529DB72006452C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D6061A2529DB72006452C1 /* SanGuo.app */,
+				02D606352529DB77006452C1 /* SanGuoTests.xctest */,
+				02D606402529DB77006452C1 /* SanGuoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02D6061C2529DB72006452C1 /* SanGuo */ = {
+			isa = PBXGroup;
+			children = (
+				02D60653252B4D2D006452C1 /* Hero.m */,
+				02D6061D2529DB72006452C1 /* AppDelegate.h */,
+				02D6061E2529DB72006452C1 /* AppDelegate.m */,
+				02D606202529DB72006452C1 /* SceneDelegate.h */,
+				02D606212529DB72006452C1 /* SceneDelegate.m */,
+				02D606232529DB72006452C1 /* ViewController.h */,
+				02D606242529DB72006452C1 /* ViewController.m */,
+				02D606292529DB76006452C1 /* Assets.xcassets */,
+				02D6062E2529DB76006452C1 /* Info.plist */,
+				02D6062F2529DB76006452C1 /* main.m */,
+				02D60652252A2052006452C1 /* Hero.h */,
+				02D60655252C3AC7006452C1 /* pk.h */,
+				02D60656252C3B03006452C1 /* pk.m */,
+			);
+			path = SanGuo;
+			sourceTree = "<group>";
+		};
+		02D606382529DB77006452C1 /* SanGuoTests */ = {
+			isa = PBXGroup;
+			children = (
+				02D606392529DB77006452C1 /* SanGuoTests.m */,
+				02D6063B2529DB77006452C1 /* Info.plist */,
+			);
+			path = SanGuoTests;
+			sourceTree = "<group>";
+		};
+		02D606432529DB77006452C1 /* SanGuoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02D606442529DB77006452C1 /* SanGuoUITests.m */,
+				02D606462529DB77006452C1 /* Info.plist */,
+			);
+			path = SanGuoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D606192529DB72006452C1 /* SanGuo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D606492529DB77006452C1 /* Build configuration list for PBXNativeTarget "SanGuo" */;
+			buildPhases = (
+				02D606162529DB72006452C1 /* Sources */,
+				02D606172529DB72006452C1 /* Frameworks */,
+				02D606182529DB72006452C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanGuo;
+			productName = SanGuo;
+			productReference = 02D6061A2529DB72006452C1 /* SanGuo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02D606342529DB77006452C1 /* SanGuoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D6064C2529DB77006452C1 /* Build configuration list for PBXNativeTarget "SanGuoTests" */;
+			buildPhases = (
+				02D606312529DB77006452C1 /* Sources */,
+				02D606322529DB77006452C1 /* Frameworks */,
+				02D606332529DB77006452C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D606372529DB77006452C1 /* PBXTargetDependency */,
+			);
+			name = SanGuoTests;
+			productName = SanGuoTests;
+			productReference = 02D606352529DB77006452C1 /* SanGuoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02D6063F2529DB77006452C1 /* SanGuoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D6064F2529DB77006452C1 /* Build configuration list for PBXNativeTarget "SanGuoUITests" */;
+			buildPhases = (
+				02D6063C2529DB77006452C1 /* Sources */,
+				02D6063D2529DB77006452C1 /* Frameworks */,
+				02D6063E2529DB77006452C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D606422529DB77006452C1 /* PBXTargetDependency */,
+			);
+			name = SanGuoUITests;
+			productName = SanGuoUITests;
+			productReference = 02D606402529DB77006452C1 /* SanGuoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D606122529DB72006452C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = luowle;
+				TargetAttributes = {
+					02D606192529DB72006452C1 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					02D606342529DB77006452C1 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 02D606192529DB72006452C1;
+					};
+					02D6063F2529DB77006452C1 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 02D606192529DB72006452C1;
+					};
+				};
+			};
+			buildConfigurationList = 02D606152529DB72006452C1 /* Build configuration list for PBXProject "SanGuo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02D606112529DB72006452C1;
+			productRefGroup = 02D6061B2529DB72006452C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D606192529DB72006452C1 /* SanGuo */,
+				02D606342529DB77006452C1 /* SanGuoTests */,
+				02D6063F2529DB77006452C1 /* SanGuoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D606182529DB72006452C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6062A2529DB76006452C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D606332529DB77006452C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D6063E2529DB77006452C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D606162529DB72006452C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D60654252B4D2D006452C1 /* Hero.m in Sources */,
+				02D606252529DB72006452C1 /* ViewController.m in Sources */,
+				02D60657252C3B03006452C1 /* pk.m in Sources */,
+				02D6061F2529DB72006452C1 /* AppDelegate.m in Sources */,
+				02D606302529DB76006452C1 /* main.m in Sources */,
+				02D606222529DB72006452C1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D606312529DB77006452C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6063A2529DB77006452C1 /* SanGuoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D6063C2529DB77006452C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D606452529DB77006452C1 /* SanGuoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D606372529DB77006452C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D606192529DB72006452C1 /* SanGuo */;
+			targetProxy = 02D606362529DB77006452C1 /* PBXContainerItemProxy */;
+		};
+		02D606422529DB77006452C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02D606192529DB72006452C1 /* SanGuo */;
+			targetProxy = 02D606412529DB77006452C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D606472529DB77006452C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02D606482529DB77006452C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02D6064A2529DB77006452C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SanGuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luowle.SanGuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02D6064B2529DB77006452C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SanGuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luowle.SanGuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02D6064D2529DB77006452C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SanGuoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luowle.SanGuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanGuo.app/SanGuo";
+			};
+			name = Debug;
+		};
+		02D6064E2529DB77006452C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SanGuoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luowle.SanGuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanGuo.app/SanGuo";
+			};
+			name = Release;
+		};
+		02D606502529DB77006452C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SanGuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luowle.SanGuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SanGuo;
+			};
+			name = Debug;
+		};
+		02D606512529DB77006452C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SanGuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luowle.SanGuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SanGuo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D606152529DB72006452C1 /* Build configuration list for PBXProject "SanGuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D606472529DB77006452C1 /* Debug */,
+				02D606482529DB77006452C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D606492529DB77006452C1 /* Build configuration list for PBXNativeTarget "SanGuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D6064A2529DB77006452C1 /* Debug */,
+				02D6064B2529DB77006452C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D6064C2529DB77006452C1 /* Build configuration list for PBXNativeTarget "SanGuoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D6064D2529DB77006452C1 /* Debug */,
+				02D6064E2529DB77006452C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D6064F2529DB77006452C1 /* Build configuration list for PBXNativeTarget "SanGuoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D606502529DB77006452C1 /* Debug */,
+				02D606512529DB77006452C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D606122529DB72006452C1 /* Project object */;
+}

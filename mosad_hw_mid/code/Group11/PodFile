@@ -1,0 +1,4 @@
+target 'frontend' do
+	pod 'Charts'
+    pod 'AFNetworking'
+end
